@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fastapi-example"
+version = "0.1.0"
+description = ""
+authors = ["Micha Hernandez van Leuffen <m.hernandezvanleuffen@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "0.94.1"
+uvicorn = "0.21.1"
+autometrics = "^0.1"
+prometheus-fastapi-instrumentator = "5.11.1"
+
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
